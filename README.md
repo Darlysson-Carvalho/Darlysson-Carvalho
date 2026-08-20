@@ -211,7 +211,7 @@ darlysson@dados:~$ _
   <img alt="snake animation" src="https://raw.githubusercontent.com/Darlysson-Carvalho/Darlysson-Carvalho/output/github-contribution-grid-snake-dark.svg">
 </picture>
 
-> ⚙️ *A animação da cobrinha é gerada automaticamente via GitHub Actions — veja as instruções de configuração no fim deste README.*
+> ⚙️ *A animação da cobrinha é gerada automaticamente via GitHub Actions 
 
 </div>
 
@@ -244,49 +244,3 @@ darlysson@dados:~$ _
 </div>
 
 
-3) ATIVE A SNAKE ANIMATION:
-   - No repositório especial, crie o arquivo:
-     .github/workflows/snake.yml
-   - Cole o conteúdo abaixo:
-
-   name: Generate Snake
-   on:
-     schedule:
-       - cron: "0 */6 * * *"
-     workflow_dispatch: {}
-     push:
-       branches: [ main ]
-   jobs:
-     generate:
-       permissions:
-         contents: write
-       runs-on: ubuntu-latest
-       steps:
-         - uses: Platane/snk@v3
-           with:
-             github_user_name: ${{ github.repository_owner }}
-             outputs: |
-               dist/github-contribution-grid-snake.svg
-               dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-         - uses: crazy-max/ghaction-github-pages@v4
-           with:
-             target_branch: output
-             build_dir: dist
-           env:
-             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-   - Vá em Settings > Actions > General > Workflow permissions
-     e marque "Read and write permissions"
-   - Rode o workflow manualmente uma vez (aba Actions > Generate Snake > Run workflow)
-
-4) STREAK STATS:
-   - Se o gráfico de streak não carregar, seu perfil pode estar como privado.
-     Vá em https://github.com/settings/profile e confirme visibilidade pública
-     de e-mail/contribuições, ou use o parâmetro &type=github (mostra contrib. privadas)
-
-5) WAKATIME (opcional):
-   - O card de Wakatime só funciona se você tiver conta conectada em wakatime.com
-     Caso não use, pode remover esse card com segurança.
-
-═══════════════════════════════════════════════════════════════
--->
