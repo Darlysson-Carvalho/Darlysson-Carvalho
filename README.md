@@ -70,7 +70,7 @@ sistema:
 
 ### 💻 Desenvolvimento
 
-<img src="https://skillicons.dev/icons?i=java,js,react,flutter,dart,html,css,git,github,vscode,figma&theme=dark" />
+<img src="https://skillicons.dev/icons?i=java,react,html,css,git,github,vscode&theme=dark" />
 
 ### ☁️ Banco de Dados & Ferramentas
 
@@ -182,16 +182,6 @@ darlysson@dados:~$ _
 <br/><br/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Darlysson-Carvalho&theme=tokyo-night&bg_color=0d1117&color=00fff2&line=00fff2&point=ffffff&hide_border=true&area=true" width="98%"/>
-
-</div>
-
-<br/>
-
-## <img src="https://media.giphy.com/media/artj92V8o75VPL7AeQ/giphy.gif" width="32"/> `> ACHIEVEMENTS.log`
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Darlysson-Carvalho&theme=darkhub&no-frame=true&no-bg=false&column=7&margin-w=8&margin-h=8" width="100%"/>
 
 </div>
 
