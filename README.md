@@ -26,6 +26,7 @@
 sistema:
   nome: "Darlysson Carvalho"
   funcao_atual: "Aprendiz Administrativo @ Norplast"
+  funcao_extensionista_atual: "Coordenador COMOP Escola de Computação Solidaria"
   formacao: "Ciência da Computação — UNIPÊ (Centro Universitário de João Pessoa)"
   foco_principal:
     - "Análise de Dados"
@@ -36,7 +37,6 @@ sistema:
     Transformar dados brutos em decisões inteligentes,
     unindo lógica de programação, estatística e visualização
     para gerar valor real de negócio.
-  experiencia_anterior: "Coordenador COMOP @ Escola da Computação Solidária UNIPÊ"
   status: "🟢 Disponível para estágio em Dados / BI / Ciência de Dados"
 ```
 
@@ -156,6 +156,8 @@ darlysson@dados:~$ cat objetivos.txt
 
 [✔] Concluir formação em Ciência da Computação — UNIPÊ
 [✔] Estruturar e documentar repositório público de SQL
+
+
 [▓▓▓▓▓▓▓▓░░] 80%  Aperfeiçoar Python para Análise de Dados (Pandas, NumPy)
 [▓▓▓▓▓▓░░░░] 60%  Aprofundar Estatística aplicada a Dados
 [▓▓▓▓▓░░░░░] 50%  Construir portfólio de projetos de Data Science
@@ -196,9 +198,6 @@ darlysson@dados:~$ _
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Darlysson-Carvalho/Darlysson-Carvalho/output/github-contribution-grid-snake.svg">
   <img alt="snake animation" src="https://raw.githubusercontent.com/Darlysson-Carvalho/Darlysson-Carvalho/output/github-contribution-grid-snake-dark.svg">
 </picture>
-
-> ⚙️ *A animação da cobrinha é gerada automaticamente via GitHub Actions 
-
 </div>
 
 <br/>
